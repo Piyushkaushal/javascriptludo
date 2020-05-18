@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(0, 225, 255);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Acme', sans-serif;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.dice{
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    
+}
+.container h1{
+    margin: 50px;
+    font-size: 6rem;
+    text-shadow: 5px 5px red;
+   
+
+}
+p{
+    font-size: 2rem;
+    color: blue;
+    text-shadow: 1px 1px wheat;
+}
+button{
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    background-color: blue;
+    color: white;
+}
+@media (max-width: 360px){
+    .container h1{
+     
+     
+        width: 100%;
+       font-size: 4rem;
+        text-align: center;
+        margin: auto;
+        
+    }
+    .container{
+        width: 70%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+   
+}
